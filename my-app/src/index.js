@@ -2,10 +2,10 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
 import Navbar from "./navbar";
-import Home from "./home";
+import Books from "./book";
 import ErrorPage from "./error-page";
-import Kitchen from "./kitchen";
-import Relax from "./living";
+import Toys from "./toy";
+import Selling from "./selling";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -13,17 +13,17 @@ const root = createRoot(rootElement);
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Books />,
     errorElement: <ErrorPage />
   },
 
   {
-    path: "/kitchen",
-    element: <Kitchen />
+    path: "/toy",
+    element: <Toys />
   },
   {
-    path: "/living",
-    element: <Relax />
+    path: "/selling",
+    element: <Selling />
   }
 ]);
 root.render(

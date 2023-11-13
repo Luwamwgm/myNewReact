@@ -5,13 +5,13 @@ export default function Navbar() {
       <nav>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="/">Books</a>
           </li>
           <li>
-            <a href="/kitchen">kitchen</a>
+            <a href="/kitchen">Toys</a>
           </li>
           <li>
-            <a href="/living">living room</a>
+            <a href="/living">Selling</a>
           </li>
         </ul>
       </nav>
