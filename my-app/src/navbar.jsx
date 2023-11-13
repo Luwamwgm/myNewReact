@@ -8,10 +8,10 @@ export default function Navbar() {
             <a href="/">Books</a>
           </li>
           <li>
-            <a href="/kitchen">Toys</a>
+            <a href="/toy">Toys</a>
           </li>
           <li>
-            <a href="/living">Selling</a>
+            <a href="/selling">Selling</a>
           </li>
         </ul>
       </nav>
